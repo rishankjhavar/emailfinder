@@ -16,8 +16,22 @@ Find email addresses of people in bulk by providing a list of companies. Made us
   ```
   - Visit http://localhost:4000.
   - Paste your API key from Hunter.io. *For detailed steps, please see the next section.*
-  - Upload your CSV (**Important**: Please ensure that your entries are in a single column).
-  - Submit the form, and download the list of emails by clicking on download button.
+  
+    ![Homepage](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/1.png)
+    
+  - Upload your CSV (**Important**: Please ensure that your entries are in a single column). The following is how the CSV is supposed to look:
+  
+  ![Input CSV](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/Input.png)
+  
+  - Submit the form and download the list of emails by clicking on download button.
+  
+  ![Download](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/2.png)
+  
+  Following is how the downloaded CSV might look like:
+  
+  ![Output_CSV](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/Output.png)
+  
+ 
 
 ## Steps to get Hunter.io's API key
 - Login or Signup on Hunter.io.
