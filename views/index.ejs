@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <title>Email Finder</title>
+    <!-- Importing bootstrap -->
+        <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css>
+
+    <!-- Some CSS -->
+        <style>
+                h1 {
+                 font-size: 20px;
+                 margin-top: 24px;
+                 margin-bottom: 24px;
+                }
+                img {
+                 max-width: 20%;
+                 max-height: 20%;
+                }
+                </style>
+    <!-- Let's go -->
+  <body>
+
+   <div class="col-md-6 offset-md-3 mt-5">
+        <br>
+        <h1>Please ensure that all the companies in the CSV are in a single column.</h1>
+        <form accept-charset="UTF-8" enctype="multipart/form-data" action="/download" method="POST">
+            <div class="form-group">
+                    <label for="InputAPI">Enter API key</label>
+                    <input type="text" name="apikey" class="form-control" placeholder="Enter the provided API key" required="required">
+            </div>
+          <hr>
+          <div class="form-group mt-3">
+            <label class="mr-2">Upload your CSV:</label>
+            <input type="file" name="csvfile" required="required">
+          </div>
+          <hr>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div> 
+    
+    
+  </body>
+</html>
