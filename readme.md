@@ -19,15 +19,15 @@ Find email addresses of people in bulk by providing a list of companies. Made us
   
     ![Homepage](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/1.png)
     
-  - Upload your CSV (**Important**: Please ensure that your entries are in a single column). The following is how the CSV is supposed to look:
+  - Upload your CSV. Please ensure that your entries are in a single column, as shown in the example below. 
   
   ![Input CSV](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/Input.png)
   
-  - Submit the form and download the list of emails by clicking on download button.
+  - Submit the form and click on the download button.
   
   ![Download](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/2.png)
   
-  Following is how the downloaded CSV might look like:
+  This is how the downloaded CSV might look like:
   
   ![Output_CSV](https://github.com/rishankjhavar/emailfinder/blob/master/screenshots/Output.png)
   
